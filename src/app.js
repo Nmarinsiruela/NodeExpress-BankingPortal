@@ -13,4 +13,4 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Index" });
 });
 
-app.listen(3000, () => console.log("PS Project on 3000"));
+app.listen(3000, () => console.log("PS Project on port 3000"));
